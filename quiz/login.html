@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>User Signup Form</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div id="form-container">
+		<h2>User Signup Form</h2>
+		<form>
+			<label for="fname">First Name:</label>
+			<input type="text" id="fname" name="fname" required>
+
+			<label for="lname">Last Name:</label>
+			<input type="text" id="lname" name="lname" required>
+
+			<label for="email">Email:</label>
+			<input type="email" id="email" name="email" required>
+
+			<label for="password">Password:</label>
+			<input type="password" id="password" name="password" required>
+
+			<input type="submit" value="Sign up">
+		</form>
+	</div>
+
+	<div id="quiz-section" style="display:none">
+		<h2>Quiz</h2>
+		<form id="quiz-form1">
+			<p>1. What is the capital city of France?</p>
+			<label><input type="radio" name="q1" value="a">a) London</label><br>
+			<label><input type="radio" name="q1" value="b">b) Paris</label><br>
+			<label><input type="radio" name="q1" value="c">c) Madrid</label><br>
+
+			<p>2. What is the largest planet in our solar system?</p>
+			<label><input type="radio" name="q2" value="a">a) Earth</label><br>
+			<label><input type="radio" name="q2" value="b">b) Jupiter</label><br>
+			<label><input type="radio" name="q2" value="c">c) Mars</label><br>
+
+			<p>3. What is the largest mammal in the world?</p>
+			<label><input type="radio" name="q3" value="a">a) Elephant</label><br>
+			<label><input type="radio" name="q3" value="b">b) Whale</label><br>
+			<label><input type="radio" name="q3" value="c">c) Gorilla</label><br>
+
+			<p>4. Who is the current CEO of Tesla?</p>
+			<label><input type="radio" name="q4" value="a">a) Mark Zuckerberg</label><br>
+			<label><input type="radio" name="q4" value="b">b) Tim Cook</label><br>
+			<label><input type="radio" name="q4" value="c">c) Elon Musk</label><br>
+
+			<p>5. who is the best doctor</p>
+			<label><input type="radio" name="q5" value="a">a) dr ziad</label><br>
+			<label><input type="radio" name="q5" value="b">b) abou zouz</label><br>
+			<label><input type="radio" name="q5" value="c">c) yves habchy</label><br>
+
+			<input type="submit" value="Submit">
+		</form>
+<div id="quiz-container" style="display:none">
+   
+   
+    <div id="quiz-results">
+        <h2>Quiz Results</h2>
+        <p id="score"></p>
+        <p>The correct answers are:</p>
+        <ul>
+            <li>1. b) Paris</li>
+            <li>2. b) Jupiter</li>
+            <li>3. b) Whale</li>
+            <li>4. c) Elon Musk</li>
+            <li>5. b) abou zouz</li>
+        </ul>
+    </div>
+</div>
+
+	</div>
+
+	<script src="scri.js"></script>
+
+</body>
+</html>
